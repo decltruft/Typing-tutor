@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>528</width>
+    <height>330</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>481</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Данная программа предназачена для повышения навыков быстрой печати на клавиатуре. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Для начала тренировки необходимо нажать клавишу &amp;quot;Начать&amp;quot;. После небольшого старта Вам даётся 1 минута, на протяжении которой необходимо ввести максимально возможное кол-во слов с минимальным кол-вом ошибок. Меньше ошибок - больше очков удастся заработать.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;В левом верхнем поля для отображения кол-ва заработанных очков, допущенных ошибок и введённых слов соответственно. После окончания тренировки можно запустить следующую &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">plainTextEdit
+{
+	font-size: 16px;
+	color: black;
+};</string>
+   </property>
+   <property name="plainText">
+    <string>Данная программа предназачена для повышения навыков быстрой печати на клавиатуре. 
+
+Для начала тренировки необходимо нажать клавишу &quot;Начать&quot;. После небольшого старта Вам даётся 1 минута, на протяжении которой необходимо ввести максимально возможное кол-во слов с минимальным кол-вом ошибок. Меньше ошибок - больше очков удастся заработать.
+
+В левом верхнем поля для отображения кол-ва заработанных очков, допущенных ошибок и введённых слов соответственно. После окончания тренировки можно запустить следующую </string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
